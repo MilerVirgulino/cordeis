@@ -1,3 +1,11 @@
+:root {
+  --cor-primaria:#340a0b;
+  --cor-secundaria: #7d1a0c;
+  --cor-de-fundo:#a86b4c;
+  --cor-de-paleta: #b39d69;
+  --cor-de-pastel: #e8c382;
+}
+
 /* Estilização geral */
 * {
   margin: 0;
@@ -8,12 +16,12 @@
 body {
   font-family: Arial, sans-serif;
   padding-top: 3.5em; /* Adiciona espaço no topo igual à altura do nav */
-  background-color: pink;
+  background-color: var(--cor-de-paleta);
 }
 
 /* Estilização do nav */
 nav {
-  background-color: #c45b95;
+  background-color: var(--cor-de-fundo);
   color: white;
   padding: 0.5em;
   position: fixed;
@@ -94,7 +102,7 @@ nav a:hover {
 
 .parceiros h2 {
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .parceiros .parceiro-lista {
@@ -114,52 +122,6 @@ nav a:hover {
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efeito de sombra */
-}
-
-/* Estilos para o feed do Instagram */
-.instagram-posts {
-  padding: 40px 20px;
-  background-color: #fafafa00; /* Cor de fundo suave */
-}
-.instagram-feed h1{
-  display: flex;
-}
-
-.instagram-feed {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.instagram-feed .post {
-  width: 250px; /* Largura das postagens */
-  flex-grow: 1;
-  max-width: 100%; /* A largura se ajusta ao contêiner */
-  margin-bottom: 20px; /* Espaçamento entre as postagens */
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.instagram-feed .post:hover {
-  transform: scale(1.05); /* Aumenta a postagem ao passar o mouse */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.instagram-feed .post img {
-  width: 100%;
-  height: auto;
-}
-
-.instagram-feed .post p {
-  padding: 10px;
-  font-size: 14px;
-  color: #333;
-  text-align: center;
-  background-color: #fff;
-  margin: 0;
 }
 
 /* Estilos para a seção de parceiros */
@@ -285,4 +247,39 @@ nav a:hover {
   height: 1px;
   background-color: #33333342;
   margin: 20px 0;
+}
+
+.nosso-projeto{
+  text-align: center;
+  justify-content: center;
+  justify-items: auto;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.cordeis h1{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+
+}
+
+.lista-de-cordeis{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.post{
+  margin-top: 2rem;
+  padding-top: 2rem;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+  line-height: 1.3;
 }
