@@ -5,6 +5,7 @@
   --cor-de-paleta: #b39d69;
   --cor-de-pastel: #e8c382;
 }
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Estilização geral */
 * {
@@ -13,9 +14,23 @@
   box-sizing: border-box;
 }
 
+.title{
+  top: 0;
+  margin: 0;
+  margin-top: 0;
+  display: flex;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  text-shadow: black;
+  justify-content: center;
+  margin-bottom: .5rem;
+  text-shadow: black;
+  text-shadow: 1px 1px;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  padding-top: 3.5em; /* Adiciona espaço no topo igual à altura do nav */
+  font-family: "Space Mono", monospace;
+  padding-top: 0; /* Adiciona espaço no topo igual à altura do nav */
   background-color: var(--cor-de-paleta);
 }
 
@@ -24,12 +39,11 @@ nav {
   background-color: var(--cor-de-fundo);
   color: white;
   padding: 0.5em;
-  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 3.5em; /* Define uma altura fixa para o nav */
 }
@@ -241,6 +255,33 @@ nav a:hover {
     text-align: center; /* Centraliza o texto */
   }
 }
+.professores{
+  display: block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  align-content:baseline;
+
+  & h2{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+}
+
+.professor1{
+  display: flex;
+  align-items: center;
+  gap: 20px; /* espaço entre imagem e texto */
+  flex-wrap: wrap; /* opcional: quebra se a tela for pequena */
+  margin-top: 20px;
+}
+img{
+ max-width: 300px;
+  height: auto;
+  border-radius: 8px
+}
+
 
 .linha-separacao {
   border: 0;
@@ -248,14 +289,21 @@ nav a:hover {
   background-color: #33333342;
   margin: 20px 0;
 }
+a{
+  font-size: larger;
+  margin-top: 2rem;
+  border: solid rgba(0, 0, 0, 0.082) 1px;
+}
 
 .nosso-projeto{
+  flex: 1;
   text-align: center;
   justify-content: center;
   justify-items: auto;
   text-align: justify;
   line-height: 1.6;
   font-size: 18px;
+  margin-bottom: 1rem;
 }
 .cordeis h1{
   font-size: 2rem;

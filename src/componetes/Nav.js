@@ -13,7 +13,7 @@ export default function Nav() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Pagina inicial</Link>
+              <Link to="/">inicío</Link>
             </li>
             <li>
               <Link to="/about">A escola</Link>
