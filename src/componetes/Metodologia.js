@@ -38,7 +38,7 @@ const instagramPosts = [
 export default function Metodologia(){
     return(
         <div className="cordeis">
-        <h1>Nossos cordeis</h1>
+        <h1>Nossos cordéis</h1>
         <div className="lista-de-cordeis">
         {instagramPosts.map(post => (
         <div key={post.id} className="post">
