@@ -2,7 +2,7 @@ const Parceiros = () => {
     return (
       <div>
         <h2>Nosso Projeto</h2>
-        <p className="nosso-projeto"><b>"Entre Rimas e Forças Invisíveis"</b> é uma iniciativa que une a 
+        <p className="nosso-projeto"><b>"No Ritmo do Cordel, na Fórmula do Saber"</b> é uma iniciativa que une a 
           literatura de cordel ao ensino da Física e da Literatura, 
           promovendo uma aprendizagem criativa, crítica e culturalmente significativa. 
           Por meio da produção de cordéis rimados e ilustrados, nossos alunos 

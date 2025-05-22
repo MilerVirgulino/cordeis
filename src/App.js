@@ -7,7 +7,7 @@ console.log(key)
 function App() {
   return(<div>
 
-    <h1 className='title'>Entre Rimas e Forças Invisíveis</h1>
+    <h1 className='title'>No Ritmo do Cordel, na Fórmula do Saber</h1>
     <Nav/>
   </div>
   )
