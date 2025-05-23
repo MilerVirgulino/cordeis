@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3f232630.css",
+    "main.js": "/static/js/main.9fa09f26.js",
+    "static/js/488.1436bf7b.chunk.js": "/static/js/488.1436bf7b.chunk.js",
+    "static/media/cordeisfamosos-capa.png": "/static/media/cordeisfamosos-capa.180e0e697a3134067146.png",
+    "static/media/image.png": "/static/media/image.e4166585601c30ad03e1.png",
+    "index.html": "/index.html",
+    "main.3f232630.css.map": "/static/css/main.3f232630.css.map",
+    "main.9fa09f26.js.map": "/static/js/main.9fa09f26.js.map",
+    "488.1436bf7b.chunk.js.map": "/static/js/488.1436bf7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f232630.css",
+    "static/js/main.9fa09f26.js"
+  ]
+}
