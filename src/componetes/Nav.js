@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./Home";
 import Contact from "./Contact";
@@ -16,10 +15,10 @@ export default function Nav() {
               <Link to="/">inicío</Link>
             </li>
             <li>
-              <Link to="/about">A escola</Link>
+              <Link to="/about">escola</Link>
             </li>
             <li>
-              <Link to="/metodologia">Nossos cordeis</Link>
+              <Link to="/metodologia">Cordeis</Link>
             </li>
             
             <li>

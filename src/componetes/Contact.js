@@ -1,21 +1,28 @@
+import miler from './imagens/miler.jpg'
+import cecilia from './imagens/cecilia.jpg'
+
 export default function Contact(){
 
     return(
         <div className="professores">
             <h2> Professores responsáveis</h2>
+            <p> Quem são os mestres por trás dessa jornada? </p>
+
             <div className="professor1">
-                <h2>Nome do professor</h2>
-                <img src='https://placehold.co/300x400'/>
-                <p className="nosso-projeto"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nunc tellus, fringilla suscipit volutpat ut, convallis sed eros. Duis urna tellus, gravida non nunc ut, convallis lacinia orci. Proin in posuere ante. Nullam non posuere metus. Phasellus dictum vestibulum erat, eget ultricies sapien blandit ac. Nunc tincidunt mauris leo, sit amet porta dui faucibus lobortis. Aenean cursus tempus est quis egestas. Sed vel orci id tortor interdum fermentum vel nec eros.
-                     Donec tincidunt massa nisi, eu accumsan purus posuere a. </p>
+                <h2>Profª Ana Cecília – A Guardiã das Palavras</h2>
+                <img src={cecilia}/>
+                <p className="nosso-projeto"> Formada em Letras, nossa querida Profª Ana Cecília é a maga da gramática e a poeta das ideias. Foi dela a centelha criativa que inspirou a turma a transformar
+                     conteúdos escolares em literatura de cordel. Com olhar atento, revisou os textos, lapidou as rimas e organizou cada detalhe com o capricho de quem acredita na arte e no poder da educação. </p>
+            </div>
+
+            <div className="professor1">
+                <h2>Prof. Miler Virgulino – O Cientista dos Versos</h2>
+                <img src={miler}/>
+                <p className="nosso-projeto"> Formado em Física e mestre no ensino dela, o Prof. Miler é mais do que um educador: é um verdadeiro alquimista das palavras científicas! Foi ele quem nos ajudou a colocar a Física dentro dos cordéis, 
+                    como quem coloca estrela em garrafa. Além disso, foi o programador do nosso universo digital — desenvolvendo o site onde você está agora, abrindo as portas para o mundo ver nosso trabalho. </p>
             </div>
             
-            <div className="professor1">
-                <h2>Nome do professor</h2>
-                <img src='https://placehold.co/300x400'/>
-                <p className="nosso-projeto"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nunc tellus, fringilla suscipit volutpat ut, convallis sed eros. Duis urna tellus, gravida non nunc ut, convallis lacinia orci. Proin in posuere ante. Nullam non posuere metus. Phasellus dictum vestibulum erat, eget ultricies sapien blandit ac. Nunc tincidunt mauris leo, sit amet porta dui faucibus lobortis. Aenean cursus tempus est quis egestas. Sed vel orci id tortor interdum fermentum vel nec eros.
-                     Donec tincidunt massa nisi, eu accumsan purus posuere a. </p>
-            </div>
+            
         </div>
     )
 }

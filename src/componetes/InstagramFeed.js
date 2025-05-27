@@ -1,4 +1,3 @@
-import React from 'react';
 
 // Simulação do JSON com as postagens
 const instagramPosts = [
