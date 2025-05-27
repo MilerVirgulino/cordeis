@@ -1,38 +1,62 @@
+import arteUrbana from "./imagens/arteUrbana.png"
+import morteVidaEstrelas from "./imagens/morteVidaEstrelas.png"
+import revolcaoDosBichos from './imagens/revolucaodosbichos.png'
+import arteNasCidades from "./imagens/artesNasCidades.png"
+import ondasEletromagneticas from "./imagens/ondasEletromagneticas.png"
+import revolucaoDosBichos2 from "./imagens/revolucaoDosBichos2.png"
+
+
 const instagramPosts = [
     {
       id: 1,
-      imageUrl: "https://placehold.co/300x400",
-      caption: "A Força Invisível que Move o Sertão",
-      postLink: "https://drive.google.com/file/d/1ZGf86uWx6wtHtkO4C6QPqVx6SZwvOSz8/view?usp=drive_link",
-      autores: "Vanessa, Marcos, Bruno",
+      imageUrl: arteUrbana,
+      caption: "Artes Urbanas",
+      postLink: "https://drive.google.com/file/d/1IYqGwwN6z_UdErImc5C9ZuCGHt8M_H6G/view?usp=sharing",
+      autores: "Ana Luiza, Francisco Rafael, Heitor Barros, Heitor Oliveira, Rafael Castro, Rodrigo Isaac",
     },
     {
       id: 2,
-      imageUrl: "https://placehold.co/300x400",
-      caption: "Do Lampião à Lâmpada: Luz na Ponta do Verso",
-      postDate: "2024-12-08T14:00:00Z",
-      postLink: "https://www.instagram.com/p/ExemploLink2",
-      autores: "Vanessa, Marcos, Bruno",
+     imageUrl: morteVidaEstrelas,
+      caption: "Morte e Vida das Estrelas",
+      postLink: "https://drive.google.com/file/d/1L_V5PEc0nfuLUmCNkeRijkCrGCNDieFY/view?usp=sharing",
+      autores: "Ana Luiza, Francisco Rafael, Heitor Barros, Heitor Oliveira, Rafael Castro, Rodrigo Isaac",
 
     },
     {
       id: 3,
-      imageUrl: "https://placehold.co/300x400",
-      caption: "No Compasso da Tabuada, o Matuto Vira Doutor",
-      postDate: "2024-12-07T09:00:00Z",
-      postLink: "https://www.instagram.com/p/ExemploLink3",
-      autores: "Vanessa, Marcos, Bruno",
+      imageUrl: revolcaoDosBichos,
+      caption: "Revolução dos Bichos",
+      postLink: "https://drive.google.com/file/d/1dkI2TfAtB7o826lkXO3d3CkaKIMs2qAf/view?usp=sharing",
+      autores: "Ana Luiza, Francisco Rafael, Heitor Barros, Heitor Oliveira, Rafael Castro, Rodrigo Isaac",
 
     },
     {
       id: 4,
-      imageUrl: "https://placehold.co/300x400",
-      caption: "Quando o Vento Sopra Ciência: o Matuto e o Moinho",
-      postDate: "2024-12-06T16:00:00Z",
-      postLink: "https://www.instagram.com/p/ExemploLink4",
-      autores: "Vanessa, Marcos, Bruno",
+      imageUrl: arteNasCidades,
+      caption: "Arte nas Cidades",
+      postLink: "https://drive.google.com/file/d/1BME52RnfJGqAjm3TZAbHOXruUFYwwBG1/view?usp=sharing",
+      autores: "Ana Beatriz, Antônio Marcos, Arthur Nunes, Carlos Evandro, José Tavares",
 
-    }
+
+    },
+    {
+      id: 5,
+      imageUrl: ondasEletromagneticas,
+      caption: "Ondas Eletromagnéticas",
+      postLink: "https://drive.google.com/file/d/1qgEZgfQAHJOESGFRLBKIyC6RfcEpnSni/view?usp=sharing",
+      autores: "Ana Beatriz, Antônio Marcos, Arthur Nunes, Carlos Evandro, José Tavares",
+
+
+    },
+    {
+      id: 6,
+      imageUrl: revolucaoDosBichos2,
+      caption: "Revolução dos Bichos",
+      postLink: "https://drive.google.com/file/d/14VaseTX5Ipz-an-9XuU1DQcO38qFs7Ak/view?usp=sharing",
+      autores: "Ana Beatriz, Antônio Marcos, Arthur Nunes, Carlos Evandro, José Tavares",
+
+
+    },
   ];
 
 export default function Metodologia(){
